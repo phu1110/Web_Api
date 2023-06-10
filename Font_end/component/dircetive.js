@@ -188,3 +188,120 @@ app.directive('navdiscount', () => {
       },
     };
   });
+  app.directive('categorymenu', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/categories.html',
+      controller: () => {
+        console.log('load categorymenu');
+      },
+    };
+  });
+  app.directive('singleform', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/singleform.html',
+      controller: () => {
+        console.log('load singleform');
+      },
+    };
+  });
+  app.directive('color', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/color.html',
+      controller: () => {
+        console.log('load color');
+      },
+    };
+  });
+  app.directive('price', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/price.html',
+      controller: () => {
+        console.log('load Price');
+      },
+    };
+  });
+  app.directive('total', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/total_product.html',
+      controller: () => {
+        console.log('load total');
+      },
+    };
+  });
+  app.directive('sorting', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Sorting.html',
+      controller: () => {
+        console.log('load Sorting');
+      },
+    };
+  });
+  app.directive('product1', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product1.html',
+      controller: () => {
+        console.log('load product1');
+      },
+    };
+  });
+  app.directive('product2', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product2.html',
+      controller: () => {
+        console.log('load product2');
+      },
+    };
+  });
+  app.directive('product3', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product3.html',
+      controller: () => {
+        console.log('load product3');
+      },
+    };
+  });
+  app.directive('product4', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product4.html',
+      controller: () => {
+        console.log('load product4');
+      },
+    };
+  });
+  app.directive('product5', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product5.html',
+      controller: () => {
+        console.log('load product5');
+      },
+    };
+  });
+  app.directive('product6', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/Single_Product/Product6.html',
+      controller: () => {
+        console.log('load product6');
+      },
+    };
+  });
+  app.directive('trang', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/shop/trang.html',
+      controller: () => {
+        console.log('load trang');
+      },
+    };
+  });
