@@ -341,3 +341,21 @@ app.directive('navdiscount', () => {
       },
     };
   });
+  app.directive('tablecart', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/table.html',
+      controller: () => {
+        console.log('load table');
+      },
+    };
+  });
+  app.directive('totalcart', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/cart-total.html',
+      controller: () => {
+        console.log('load totalcart');
+      },
+    };
+  });
