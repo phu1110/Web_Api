@@ -305,3 +305,39 @@ app.directive('navdiscount', () => {
       },
     };
   });
+  app.directive('breadcrumb', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/breadcrumb.html',
+      controller: () => {
+        console.log('load breadcrumb');
+      },
+    };
+  });
+  app.directive('singleproduct', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/single-product.html',
+      controller: () => {
+        console.log('load singleproduct');
+      },
+    };
+  });
+  app.directive('productdata', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/product-data.html',
+      controller: () => {
+        console.log('load product-data');
+      },
+    };
+  });
+  app.directive('addtocart', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/product-details/add-to-cart.html',
+      controller: () => {
+        console.log('load addtocart');
+      },
+    };
+  });
