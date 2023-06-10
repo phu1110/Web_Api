@@ -359,3 +359,30 @@ app.directive('navdiscount', () => {
       },
     };
   });
+  app.directive('formcheckout', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/checkout/form_checkout.html',
+      controller: () => {
+        console.log('load formcheckout');
+      },
+    };
+  });
+  app.directive('cash', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/checkout/cash.html',
+      controller: () => {
+        console.log('load cash');
+      },
+    };
+  });
+  app.directive('country', () => {
+    return {
+      restrict: 'E',
+      templateUrl: './component/checkout/select_country.html',
+      controller: () => {
+        console.log('load cash');
+      },
+    };
+  });
